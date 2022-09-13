@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+body{
+    font-family: 'Barlow' , sans-serif;
+}
+
+header{
+    background-color: black;
+    border-bottom: 3px solid #39B9CD;
+    padding: 15px 0;
+    /*para o header descer junto com a tela*/
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #39B9CD;
+    font-size: 14px;
+}
+
+.navegacao{
+    color: #efb661;
+}
+
+.navegacao ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navegacao ul li {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* estilizando o banner */
+
+.banner{
+    background-image: url("./assets/img/bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0px;
+    background-size: cover;
+}
+
+.banner .container{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p {
+    color: #FFF;
+    font-size: 36px;
+    width: 280px;
+}
+
+/*estilizando social*/
+
+.social{
+    margin: 50px 0;
+}
+
+.social .caixas{
+    display: flex;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa h4{
+    margin: 15px 0;
+    color: #E6005A;
+}
+
+.caixa p{
+    text-align: center;
+}
+
+.caixa img {
+    width: 170px;
+}
+
+footer{
+    padding: 45px 0;
+    background-color: #39B9CD;
+}
+
+footer .container{
+    justify-content: center;
+}
+
+footer{
+    color: #FFF;
+}
